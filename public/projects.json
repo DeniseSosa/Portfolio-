@@ -1,28 +1,34 @@
 [
     {
+      "id": "1",
       "name": "Snake Game",
       "description": "A classic snake game where the player controls the snake to eat food and grow without crashing into the walls or its own body.",
       "technologies": ["JavaScript", "HTML", "CSS"]
     },
     {
+      "id": "2",
       "name": "To Do List",
       "description": "To-do list application with local storage support that allows adding, deleting, and marking tasks as completed.",
       "technologies": ["JavaScript", "HTML", "CSS", "Local Storage"]
     },
     {
-      "name": "Vamos!!",
-      "description": "A web app for an NGO that offers transportation from airports and empowers senior citizens with employment opportunities. It includes user profiles and an administrative dashboard to manage bookings and drivers.",
-      "technologies": ["React", "Redux", "Express", "Node JS", "PostgreSQL", "Sequelize", "Chakra UI", "Firebase", "Cloudinary"]
+      "id": "3",
+      "name": "Rick & Morty",
+      "description": "A SPA showcasing characters from the Rick & Morty cartoon. Users can log in, select favorite characters, search by ID, sort alphabetically, and filter by gender.",
+      "technologies": ["React", "Vite", "Redux", "Tailwind", "Express", "Node JS", "PostgreSQL", "Sequelize"]
     },
     {
+      "id": "4",
       "name": "Dogs",
       "description": "A SPA to showcase different dog breeds and allow users to create and store new breeds in the database. It includes name search, alphabetical sorting, weight sorting, and filtering by temperament or origin.",
       "technologies": ["React", "Redux", "Express", "Node JS", "PostgreSQL", "Sequelize", "HTML", "CSS"]
     },
     {
-      "name": "Rick & Morty",
-      "description": "A SPA showcasing characters from the Rick & Morty cartoon. Users can log in, select favorite characters, search by ID, sort alphabetically, and filter by gender.",
-      "technologies": ["React", "Vite", "Redux", "Tailwind", "Express", "Node JS", "PostgreSQL", "Sequelize"]
+      "id": "5",
+      "name": "Vamos!!",
+      "description": "A web app for an NGO that offers transportation from airports and empowers senior citizens with employment opportunities. It includes user profiles and an administrative dashboard to manage bookings and drivers.",
+      "technologies": ["React", "Redux", "Express", "Node JS", "PostgreSQL", "Sequelize", "Chakra UI", "Firebase", "Cloudinary"]
     }
+
   ]
   
