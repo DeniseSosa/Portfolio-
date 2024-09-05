@@ -5,7 +5,7 @@ import Card from "../Card/Card";
 // eslint-disable-next-line react/prop-types
 function CardsContainer({projects}) {
     return (
-        <div className="flex wrap-wrap justify-center bg-fuchsia-200">
+        <div className="flex flex-wrap justify-center m-5 p-2.5">
             {
                 // eslint-disable-next-line react/prop-types
                 projects.map((p) => {
