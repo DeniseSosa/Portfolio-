@@ -1,6 +1,7 @@
 //import Card from "../Card/Card";
 import CardsContainer from "../CardsContainer/CardsContainer";
 import { useEffect, useState } from "react";
+import Technologies from "../technologies/Technologies";
 
 function Home() {
 
@@ -23,9 +24,10 @@ function Home() {
     console.log(projects);
 
     return (
-        <div className="bg-neutral-950 w-vh min-h-screen ">
+        <div className="bg-neutral-100 dark:bg-neutral-950 min-h-screen w-full">
             <h1 className="text-white">Hello Portfolio 💜</h1>
             <img src="/pixelcut-export.png"></img>
+            <Technologies/>
             <CardsContainer projects= {projects} />
             
         </div>

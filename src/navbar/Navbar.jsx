@@ -1,7 +1,7 @@
 function Navbar() {
   return (
-    <nav className="bg-fuchsia-900">
-      <div className="flex justify-around w-vh">
+    <nav className="bg-fuchsia-900 w-full">
+      <div className="flex flex-col lg:flex-row justify-around">
      <div className="p-5">
         <a className="text-slate-50 font-medium text-2xl hover:bg-fuchsia-800 m-0.5 p-4 rounded-xl">Fullstack Developer & UX/UI Designer</a>
       </div>
@@ -17,7 +17,7 @@ function Navbar() {
         <div className="p-5 ">
           <a className="text-slate-50 font-medium text-xl hover:bg-fuchsia-800 m-0.5 p-4 rounded-xl">Contact</a>
         </div>
-      </div>
+        </div>
     </nav>
   );
 }

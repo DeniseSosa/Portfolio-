@@ -4,7 +4,7 @@ import Home from "./home/Home";
 
 function App() {
   return (
-    <div>
+    <div className="w-full">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
