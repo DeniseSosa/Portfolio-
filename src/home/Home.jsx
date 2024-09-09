@@ -2,6 +2,7 @@
 import CardsContainer from "../CardsContainer/CardsContainer";
 import { useEffect, useState } from "react";
 import Technologies from "../technologies/Technologies";
+import Contact from "../Contact/Contact";
 
 function Home() {
 
@@ -29,6 +30,7 @@ function Home() {
             <img src="/pixelcut-export.png"></img>
             <Technologies/>
             <CardsContainer projects= {projects} />
+            <Contact/>
             
         </div>
     );
