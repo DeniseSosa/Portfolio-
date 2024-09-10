@@ -3,6 +3,9 @@ import Navbar from "./navbar/Navbar";
 import Home from "./home/Home";
 
 function App() {
+
+
+
   return (
     <div className="w-full">
       <Navbar />

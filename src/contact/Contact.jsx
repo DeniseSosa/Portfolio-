@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="">
+    <div className="h-4/6">
       <h2 className="text-white text-center text-3xl m-2 p-2">Contact 📩</h2>
       <div className="grid grid-cols-3 grid-rows-2 gap-4">
 
@@ -16,8 +16,8 @@ function Contact() {
           </div>
         </div>
 
-        <div className="col-span-2 row-span-2 hidden lg:visible">
-          <img className="" src="/ro_mejorada.png"></img>
+        <div className="hidden lg:block col-span-2 row-span-2">
+          <img className="h-4/6 " src="https://res.cloudinary.com/dcjdkojad/image/upload/c_pad,w_1041,h_1041,ar_1:1,e_improve/v1725990755/Portfolio_images/ro_mejorada_sqrz2w.png"></img>
         </div>
 
         <div className="col-span-3 lg:col-span-1">
