@@ -24,7 +24,7 @@ function Home() {
   console.log(projects);
 
   return (
-    <div className="bg-neutral-950 min-h-screen w-full">
+    <div className="bg-neutral-900 min-h-screen w-full">
       <h1 className="text-white">Hello Portfolio 💜</h1>
       <div className="grid grid-cols-2 gap-2">
         <button className="justify-self-end transition duration-300 ease-in-out filter hover:drop-shadow-[0_10px_15px_rgb(192,38,211)]">
