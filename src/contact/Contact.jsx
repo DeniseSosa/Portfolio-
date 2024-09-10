@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <div className="">
-      <h2 className="text-white text-center text-3xl">Contact 📩</h2>
+      <h2 className="text-white text-center text-3xl m-2 p-2">Contact 📩</h2>
       <div className="grid grid-cols-3 grid-rows-2 gap-4">
 
         <div className=" col-span-3 lg:col-span-1 content-center">
@@ -22,15 +22,15 @@ function Contact() {
 
         <div className="col-span-3 lg:col-span-1">
           <div className="flex justify-center">
+            <img className="size-16 bg-white m-1.5 rounded-md" src="/mail.svg" alt="" />
             <img
-              className="size-16 bg-white m-1.5"
+              className="size-16 bg-white m-1.5 rounded-xl"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
             />
             <img
-              className="size-16 bg-white m-1.5"
+              className="size-16 bg-white m-1.5 rounded-md"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
             />
-            <img className="size-16 bg-white m-1.5" src="/mail.svg" alt="" />
           </div>
         </div>
 
