@@ -6,8 +6,8 @@ import Card from "../Card/Card";
 function CardsContainer({projects}) {
     return (
         <div>
-        <h2 className="text-white text-center text-3xl">Projects 🎉</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 justify-center m-5 p-2.5">
+        <h2 className="text-white text-center text-4xl lg:text-5xl">Projects 🎉</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 justify-center m-5 p-2.5">
             {
                 // eslint-disable-next-line react/prop-types
                 projects.map((p) => {

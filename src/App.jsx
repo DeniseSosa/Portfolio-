@@ -10,7 +10,7 @@ function App() {
     <div className="w-full">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />}/>
       </Routes>
     </div>
   );
