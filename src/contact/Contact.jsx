@@ -1,17 +1,17 @@
 function Contact() {
   return (
-    <div className="max-h-fit bg-neutral-900 py-10">
+    <div className="max-h-fit bg-neutral-900 py-10 w-11/12 mx-auto">
       <h2 className="text-white text-center text-4xl lg:text-5xl m-4 lg:mb-8 p-2">Contact 📩</h2>
 
       <div className="grid grid-cols-3 gap-4 max-h-fit px-4 lg:px-20">
 
         <div className="col-span-3 lg:col-span-1 flex flex-col items-center justify-center">
           <div className="w-full lg:w-3/4">
-            <button className="w-full text-white text-center text-xl lg:text-2xl bg-fuchsia-700 hover:bg-fuchsia-800 p-4 m-3 rounded-md transition duration-300">
+            <button className="w-full text-white text-center text-xl lg:text-2xl bg-fuchsia-700 hover:bg-fuchsia-800 p-4 m-3 rounded-md transition duration-300 hover:shadow-[0_10px_15px_rgb(192,38,211)]">
               Download Resume
             </button>
 
-            <button className="w-full text-white text-center text-xl lg:text-2xl bg-fuchsia-700 hover:bg-fuchsia-800 p-4 m-3 rounded-md transition duration-300">
+            <button className="w-full text-white text-center text-xl lg:text-2xl bg-fuchsia-700 hover:bg-fuchsia-800 p-4 m-3 rounded-md transition duration-300 hover:shadow-[0_10px_15px_rgb(192,38,211)]">
               Descargar CV
             </button>
           </div>

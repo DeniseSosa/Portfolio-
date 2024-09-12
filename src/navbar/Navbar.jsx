@@ -1,7 +1,7 @@
 
 function Navbar() {
   return (
-    <nav className="bg-fuchsia-900 w-full sticky top-0 ">
+    <nav className="bg-fuchsia-900 w-full sticky top-0">
       <div className="flex flex-col lg:flex-row justify-around">
         <div className="p-5">
           <a 
