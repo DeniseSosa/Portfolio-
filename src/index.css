@@ -1,12 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Ocultar scrollbar en navegadores modernos */
+/* Oculta la scrollbar en navegadores modernos */
 .hide-scrollbar::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera */
   }
-  
+  /* Oculta la scrollbar en otros navegadores */
   .hide-scrollbar {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+  }
+
+
+  
+  @keyframes entrarIzq{
+    from{
+      transform: translateX(-200%);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }
+  .banner-coder {
+    display: block;
+    animation: entrarIzq .8s ease-in-out;
+  }
+
+  @keyframes entrarDer{
+    from{
+      transform: translateX(200%);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }
+  .banner-designer {
+    display: block;
+    animation: entrarDer .8s ease-in-out;
   }

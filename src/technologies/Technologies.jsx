@@ -3,10 +3,10 @@ function Technologies() {
 
 
   return (
-    <div className="w-full bg-neutral-900 py-8 ">
+    <div className="w-full bg-neutral-900 lg:py-8  py-2">
       <h2 className="text-white text-4xl lg:text-5xl text-center m-1.5 p-1.5">Technologies 🍕</h2>
       
-      <div  className="flex space-x-6 overflow-x-auto snap-x snap-mandatory hide-scrollbar p-12 my-12 w-11/12 mx-auto rounded-2xl hover:drop-shadow-[0_10px_15px_rgb(192,38,211)]">
+      <div  className="flex space-x-6 overflow-x-auto snap-x snap-mandatory hide-scrollbar p-12 my-2 lg:my-12  w-11/12 mx-auto rounded-2xl hover:drop-shadow-[0_10px_15px_rgb(192,38,211)]">
       
         <div className="snap-center flex-shrink-0 w-60">
           <img className="h-60 w-60 rounded-2xl" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Javascript" />
