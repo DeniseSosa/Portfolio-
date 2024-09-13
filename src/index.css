@@ -15,8 +15,8 @@
   
   @keyframes entrarIzq{
     from{
-      transform: translateX(-200%);
-      background-color:rgb(192,38,211);
+      transform: translateX(-70%);
+      background-color:rgba(191, 38, 211, 0.3);
     }
     to{
       transform: translateX(0);

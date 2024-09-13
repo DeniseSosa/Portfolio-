@@ -7,19 +7,28 @@ function Contact() {
 
         <div className="col-span-3 lg:col-span-1 flex flex-col items-center justify-center">
           <div className="w-full lg:w-3/4">
+          <a href="/CV_Sosa_Rocio_fullstack_Developer_english.pdf" download="CV-Sosa-Rocio.pdf">
             <button className="w-full text-white text-center text-xl lg:text-2xl bg-fuchsia-700 hover:bg-fuchsia-800 p-4 m-3 rounded-md transition duration-300 hover:shadow-[0_10px_15px_rgb(192,38,211)]">
               Download Resume
             </button>
-
+            </a>
+            <a href="/CV_Sosa_Denise_Rocio_fullstack_Developer.pdf" download="CV-Sosa-Rocio.pdf">
             <button className="w-full text-white text-center text-xl lg:text-2xl bg-fuchsia-700 hover:bg-fuchsia-800 p-4 m-3 rounded-md transition duration-300 hover:shadow-[0_10px_15px_rgb(192,38,211)]">
               Descargar CV
             </button>
+            </a>
           </div>
 
           <div className="flex justify-center mt-4">
-            <img className="w-10 h-10 bg-white m-2 rounded-md transition duration-300 hover:scale-110" src="/mail.svg" alt="Email" />
-            <img className="w-10 h-10 bg-white m-2 rounded-md transition duration-300 hover:scale-110" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" />
-            <img className="w-10 h-10 bg-white m-2 rounded-md transition duration-300 hover:scale-110" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+            <a href="mailto:rocio.sosa94@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img className="w-10 h-10 bg-slate-50 m-2 rounded-md p-2 transition duration-300 hover:scale-110" src="/mail.svg" alt="Email" />
+            </a>
+            <a href="https://github.com/DeniseSosa/DeniseSosa" target="_blank" rel="noopener noreferrer">
+              <img className="w-10 h-10 bg-slate-50 m-2 rounded-md transition duration-300 hover:scale-110" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" />
+            </a>
+            <a href="https://www.linkedin.com/in/denise-rocio-sosa-bb82b0108/" target="_blank" rel="noopener noreferrer">
+            <img className="w-10 h-10  m-2 rounded-md transition duration-300 hover:scale-110" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+            </a>
           </div>
         </div>
 
