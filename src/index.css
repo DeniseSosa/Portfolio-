@@ -16,6 +16,7 @@
   @keyframes entrarIzq{
     from{
       transform: translateX(-200%);
+      background-color:rgb(192,38,211);
     }
     to{
       transform: translateX(0);
@@ -23,12 +24,13 @@
   }
   .banner-coder {
     display: block;
-    animation: entrarIzq .8s ease-in-out;
+    animation: entrarIzq 1s ease-in-out forwards;
   }
 
   @keyframes entrarDer{
     from{
       transform: translateX(200%);
+      background-color:rgb(192,38,211);
     }
     to{
       transform: translateX(0);
@@ -36,5 +38,6 @@
   }
   .banner-designer {
     display: block;
-    animation: entrarDer .8s ease-in-out;
+    animation: entrarDer 1s ease-in-out forwards;
   }
+  
