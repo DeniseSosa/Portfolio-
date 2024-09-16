@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 
 // eslint-disable-next-line react/prop-types
+import { CiLink } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 function Card({ name, description, technologies,image }) {
   return (
     <div className=" bg-neutral-800 rounded-md m-2 p-5 border-2 border-fuchsia-800 hover:shadow-[0_10px_15px_rgb(192,38,211)] transition duration-300 hover:scale-105">
@@ -20,6 +22,16 @@ function Card({ name, description, technologies,image }) {
           </span>
         ))}
       </h3>
+      </div>
+      <div className="flex justify-between">
+        <button className="flex bg-white w-32 text-2xl rounded-3xl justify-evenly items-center hover:bg-fuchsia-400 p-2">
+          Code
+        <FaGithub className="text-2xl" />
+        </button>
+        <button className="flex bg-white w-32 text-2xl rounded-3xl justify-evenly items-center hover:bg-fuchsia-400 p-2">
+        Preview
+        <CiLink className="text-4xl" />
+        </button>
       </div>
     </div>
   );
