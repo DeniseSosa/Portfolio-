@@ -17,6 +17,7 @@ function CardsContainer({projects}) {
                         name={p.name}
                         description={p.description}
                         technologies={p.technologies}
+                        image={p.image}
                     />)
                 
                 })
