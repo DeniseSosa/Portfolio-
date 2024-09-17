@@ -23,7 +23,7 @@ function Card({ name, description, technologies,image }) {
         ))}
       </h3>
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between m-4 p-4">
         <button className="flex bg-white w-32 text-2xl rounded-3xl justify-evenly items-center hover:bg-fuchsia-400 p-2">
           Code
         <FaGithub className="text-2xl" />

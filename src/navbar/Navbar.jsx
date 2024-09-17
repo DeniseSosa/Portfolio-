@@ -29,7 +29,7 @@ function Navbar() {
             <li className="text-center text-slate-50 font-medium text-xl m-0.5 p-2 hover:border-b-2 hover:border-fuchsia-400">
               <a href="#about">About</a>
             </li>
-            <li className="text-center text-slate-50 font-medium text-xl m-0.5 p-2 hover:border-b-2 hover:border-fuchsia-400">
+            <li className=" text-center text-slate-50 font-medium text-xl m-0.5 p-2 hover:border-b-2 hover:border-fuchsia-400">
               <a href="#technologies">Technologies</a>
             </li>
             <li className="text-center text-slate-50 font-medium text-xl m-0.5 p-2 hover:border-b-2 hover:border-fuchsia-400">

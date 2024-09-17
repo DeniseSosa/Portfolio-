@@ -20,9 +20,10 @@ const About = () => {
   };
 
   const onClickBack = () => {
-    setShowIntro(true);
+    setShowIntro(true)
     setIsBannerDesigner(false);
     setIsBannerCoder(false);
+    
   };
 
   return (
@@ -99,8 +100,8 @@ const About = () => {
           “The coder side”{" "}
         </h2>
         <div className="flex">
-          <button
-            onClick={onClickBack}
+          <button 
+            onClick={onClickBack} 
             style={{color:"white"}}
             className="hidden lg:block w-30 h-30 bg-fuchsia-900 m-4 p-4 rounded-md transition duration-300 hover:scale-110 hover:bg-fuchsia-400"
           >

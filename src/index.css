@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+scroll-behavior: smooth;
+}
 /* Oculta la scrollbar en navegadores modernos */
 .hide-scrollbar::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera */
@@ -15,7 +19,7 @@
   
   @keyframes entrarIzq{
     from{
-      transform: translateX(-70%);
+      transform: translateX(-200%);
       background-color:rgba(191, 38, 211, 0.3);
     }
     to{
@@ -24,21 +28,38 @@
   }
   .banner-coder {
     display: block;
-    animation: entrarIzq 1s ease-in-out forwards;
+    animation: entrarIzq 1s ease-out forwards;
   }
 
-  @keyframes entrarDer{
+  @keyframes entrarAbajo{
     from{
-      transform: translateX(70%);
+      transform: translateY(200%);
       background-color:rgba(191, 38, 211, 0.3);
     }
     to{
-      transform: translateX(0);
+      transform: translateY(0);
     }
   }
   .banner-designer {
     display: block;
-    animation: entrarDer 1s ease-in-out forwards;
+    animation: entrarAbajo 1s ease-in-out forwards;
     
   }
+
+  /* @keyframes salirArriba{
+    from{
+      transform: translateY(0);
+      background-color:rgba(191, 38, 211, 0.3);
+    }
+    to{
+      transform: translateY(200%);
+    }
+  }
+  
+  .designer-salida {
+    display: block;
+    animation: salirArriba 1s ease-in-out forwards;
+    
+  } */
+
   

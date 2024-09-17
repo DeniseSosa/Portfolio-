@@ -26,7 +26,7 @@ function Home() {
 
   return (
 <div className="bg-neutral-900 w-full mx-auto scroll-smooth">
-  <div id="about" >
+  <div id="about">
     <About/>
   </div>
       <div id="technologies">
