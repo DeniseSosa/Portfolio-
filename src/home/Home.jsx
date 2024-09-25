@@ -26,7 +26,7 @@ function Home() {
   console.log(projects);
 
   return (
-<div className="bg-neutral-900 w-full mx-auto scroll-smooth">
+<div className="bg-neutral-100 dark:bg-neutral-900 text-slate-900 dark:text-slate-50 w-full mx-auto scroll-smooth">
   <div id="about">
     <About/>
   </div>

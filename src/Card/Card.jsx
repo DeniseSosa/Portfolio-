@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 function Card({ name, description, technologies, image, github, web }) {
 
   return (
-    <div className=" bg-neutral-800 rounded-md m-2 p-5 border-2 border-fuchsia-800 hover:shadow-[0_10px_15px_rgb(192,38,211)] transition duration-300 hover:scale-105">
+    <div className=" bg-neutral-700 rounded-md m-2 p-5 border-2 border-fuchsia-800 hover:shadow-[0_10px_15px_rgb(192,38,211)] transition duration-300 hover:scale-105">
       <h2 className="text-white text-center text-4xl lg:text-5xl">{name}</h2>
       <div className="m-2 p-2">
         <img src={image} className="object-fit rounded-md"></img>
@@ -32,7 +32,7 @@ function Card({ name, description, technologies, image, github, web }) {
           href={github}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex bg-white w-32 text-2xl rounded-3xl justify-evenly items-center hover:bg-fuchsia-400 p-2"
+          className="flex bg-white w-32 text-neutral-900 text-2xl rounded-3xl justify-evenly items-center hover:bg-fuchsia-400 p-2"
         >
           Code
           <FaGithub className="text-2xl" />
@@ -41,7 +41,7 @@ function Card({ name, description, technologies, image, github, web }) {
           href={web}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex bg-white w-32 text-2xl rounded-3xl justify-evenly items-center hover:bg-fuchsia-400 p-2"
+          className="flex bg-white text-neutral-900 w-32 text-2xl rounded-3xl justify-evenly items-center hover:bg-fuchsia-400 p-2"
         >
           Preview
           <CiLink className="text-4xl" />

@@ -27,24 +27,25 @@ const About = () => {
   };
 
   return (
-    <div className="bg-neutral-900 lg:min-h-screen w-full mx-auto scroll-smooth">
+    <div className="bg-neutral-100 dark:bg-neutral-900 lg:min-h-screen w-full mx-auto scroll-smooth">
       {showIntro && (
         <div className="flex flex-col justify-center items-center md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 lg:gap-6 w-11/12 mx-auto">
           <div className="row-span-1 col-span-full">
-            <h1 className="text-slate-50 text-3xl md:text-5xl lg:text-6xl text-center p-4">
-              I´m Denise Rocio Sosa 💜
+            <h1 className="text-slate-900 dark:text-slate-50 text-xl md:text-3xl lg:text-4xl text-center p-4 font-bold">
+              I´m Denise Rocio Sosa 
             </h1>
+            <p className="font-bold text-slate-900 dark:text-slate-50 text-xl md:text-3xl lg:text-4xl text-center ">Fullstack Developer & UX/UI student💜</p>
           </div>
           <div className="hidden lg:grid col-span-1 row-span-3 self-center m-3">
-            <h2 className="text-center text-slate-50 text-3xl lg:text-4xl p-4">
+            <h2 className="text-center text-slate-900 dark:text-slate-50 text-3xl lg:text-4xl p-4 font-bold">
               Coder
             </h2>
-            <h3 className="text-center text-slate-50 text-2xl lg:text-3xl p-2">
+            <h3 className="text-center text-slate-900 dark:text-slate-50 text-2xl lg:text-3xl p-2 font-bold">
               Fullstack Developer
             </h3>
-            <h4 className="text-center text-slate-50 text-xl lg:text-2xl p-2">
+            <p className="text-center text-slate-900 dark:text-slate-50 text-xl lg:text-2xl p-2">
               I’ve been focused in Javascript, React Js, Node JS and Express Js
-            </h4>
+            </p>
           </div>
 
           <div className="grid grid-cols-2 col-span-full md:col-span-2 row-span-3">
@@ -71,32 +72,32 @@ const About = () => {
           </div>
 
           <div className=" hidden lg:grid col-span-1 row-span-3 self-center m-3">
-            <h2 className="text-center text-slate-50 text-3xl lg:text-4xl p-4">
+            <h2 className="text-center text-slate-900 dark:text-slate-50 text-3xl lg:text-4xl p-4 font-bold">
               Designer
             </h2>
-            <h3 className="text-center text-slate-50 text-2xl lg:text-3xl p-2">
+            <h3 className="text-center text-slate-900 dark:text-slate-50 text-2xl lg:text-3xl p-2 font-bold">
               UX/UI Designer
             </h3>
-            <h4 className="text-center text-slate-50 text-xl lg:text-2xl p-2">
+            <p className="text-center text-slate-900 dark:text-slate-50 text-xl lg:text-2xl p-2">
               Recently discovered that I’m into User Research, prototypes and
               mockups with Figma and usability testing
-            </h4>
+            </p>
           </div>
 
           <div className=" flex flex-col justify-center items-center m-3 md:col-span-full lg:row-span-1 lg:col-start-2 lg:col-end-4">
-            <h2 className="text-center text-slate-50 text-3xl lg:text-4xl p-4">
+            <h2 className="text-center text-slate-900 dark:text-slate-50 text-3xl lg:text-4xl p-4 font-bold">
               Tourism Managment Degree
             </h2>
-            <h3 className="text-center text-slate-50 text-2xl lg:text-3xl p-2">
+            <p className="text-center text-slate-900 dark:text-slate-50 text-2xl lg:text-3xl p-2">
               My degree in Tourism Management has guided me into becoming a
               highly adaptable, empathetic, and well-organized professional
-            </h3>
+            </p>
           </div>
         </div>
       )}
 
       <div className={`${isBannerCoder ? "banner-coder" : "hidden"}`}>
-        <h2 className="text-center text-slate-50 text-3xl lg:text-6xl p-8">
+        <h2 className="text-center text-slate-900 dark:text-slate-50 text-3xl lg:text-5xl font-bold">
           “The coder side”{" "}
         </h2>
         <div className="flex">
@@ -107,7 +108,7 @@ const About = () => {
           >
             <IoMdArrowRoundBack />
           </button>
-          <h3 className="text-slate-50 text-base sm:text-xl lg:text-3xl leading-snug lg:w-2/6 mx-auto text-center justify-self-center self-center">
+          <h3 className="text-slate-900 dark:text-slate-50 text-base sm:text-xl lg:text-3xl leading-snug lg:w-2/6 mx-auto text-center justify-self-center self-center font-bold">
             Started in IT in 2023 without knowing anything about programming, a
             friend had taught me my first steps and I was immediately captivated
             by this world. It fascinated me, and I quickly became passionate
@@ -127,7 +128,7 @@ const About = () => {
       </div>
 
       <div className={`${isBannerDesigner ? "banner-designer" : "hidden"}`}>
-        <h2 className="text-center text-slate-50 text-3xl lg:text-6xl p-8">
+        <h2 className="text-center text-slate-900 dark:text-slate-50 text-3xl lg:text-5xl font-bold">
           “The designer side”{" "}
         </h2>
         <div className="flex">
@@ -141,7 +142,7 @@ const About = () => {
             ></img>
           </button>
 
-          <h3 className="text-slate-50 text-base sm:text-xl lg:text-3xl leading-snug lg:w-2/6 mx-auto text-center justify-self-center self-center">
+          <h3 className="text-slate-900 dark:text-slate-50 text-base sm:text-xl lg:text-3xl leading-snug lg:w-2/6 mx-auto text-center justify-self-center self-center font-bold">
             This journey has just begun... I've always loved drawing,
             decorating, designing my own clothes, and nurturing my creative
             side, but it wasn't until 2024 that I started studying UX/UI design
