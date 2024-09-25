@@ -3,7 +3,7 @@ function Technologies() {
 
 
   return (
-    <div className="w-full bg-neutral-100 dark:bg-neutral-900 lg:py-6  py-2">
+    <div className="w-full bg-fuchsia-100 dark:bg-neutral-900 lg:py-6  py-2">
       <h2 className="text-slate-900 dark:text-slate-50 text-4xl lg:text-5xl text-center m-1.5 p-1.5 font-bold">Technologies 🎮</h2>
       
       <div  className="flex space-x-6 overflow-x-auto snap-x snap-mandatory hide-scrollbar p-12 my-2 lg:my-12  w-11/12 mx-auto rounded-2xl hover:drop-shadow-[0_10px_15px_rgb(192,38,211)]">

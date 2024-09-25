@@ -7,7 +7,7 @@ function App() {
 
 
   return (
-    <div className="w-full bg-neutral-100 dark:bg-neutral-900 scroll-smooth">
+    <div className="w-full bg-fuchsia-100 dark:bg-neutral-900 scroll-smooth">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}/>

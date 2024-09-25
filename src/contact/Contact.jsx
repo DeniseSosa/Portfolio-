@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="max-h-fit py-10 w-11/12 mx-auto">
+    <div className="bg-fuchsia-100 dark:bg-neutral-900 max-h-fit py-10 w-11/12 mx-auto">
       <h2 className="text-slate-900 dark:text-slate-50 text-center text-4xl lg:text-5xl m-4 lg:mb-8 p-2 font-bold">
         Contact 📲
       </h2>

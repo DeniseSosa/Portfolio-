@@ -27,7 +27,7 @@ const About = () => {
   };
 
   return (
-    <div className="bg-neutral-100 dark:bg-neutral-900 lg:min-h-screen w-full mx-auto scroll-smooth">
+    <div className="bg-fuchsia-100 dark:bg-neutral-900 lg:min-h-screen w-full mx-auto scroll-smooth">
       {showIntro && (
         <div className="flex flex-col justify-center items-center md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 lg:gap-6 w-11/12 mx-auto">
           <div className="row-span-1 col-span-full">

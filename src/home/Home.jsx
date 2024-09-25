@@ -2,7 +2,7 @@
 import CardsContainer from "../CardsContainer/CardsContainer";
 import { useEffect, useState } from "react";
 import Technologies from "../technologies/Technologies";
-import Contact from "../Contact/Contact";
+import Contact from "../contact/Contact";
 import About from "../about/About";
 import Footer from "../footer/Footer";
 
@@ -26,7 +26,7 @@ function Home() {
   console.log(projects);
 
   return (
-<div className="bg-neutral-100 dark:bg-neutral-900 text-slate-900 dark:text-slate-50 w-full mx-auto scroll-smooth">
+<div className="bg-fuchsia-100 dark:bg-neutral-900 text-slate-900 dark:text-slate-50 w-full mx-auto scroll-smooth">
   <div id="about">
     <About/>
   </div>
