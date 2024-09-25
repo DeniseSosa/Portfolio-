@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Technologies from "../technologies/Technologies";
 import Contact from "../Contact/Contact";
 import About from "../about/About";
+import Footer from "../footer/Footer";
 
 function Home() {
   const [projects, setProjects] = useState([]);
@@ -37,6 +38,9 @@ function Home() {
       </div>
       <div id="contact">
         <Contact />
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   );
