@@ -18,6 +18,8 @@ function CardsContainer({projects}) {
                         description={p.description}
                         technologies={p.technologies}
                         image={p.image}
+                        github= {p.github}
+                        web={p.web}
                     />)
                 
                 })
