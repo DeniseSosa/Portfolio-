@@ -8,22 +8,21 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
-      // keyframes: {
-      //   salirArriba: {
-      //     '0%': {
-      //       transform: 'translateY(0)',
-      //       backgroundColor: 'rgba(191, 38, 211, 0.3)',
-      //     },
-      //     '100%': {
-      //       transform: 'translateY(200%)',
-      //     },
-      //   },
-      // },
-      // animation: {
-      //   salirArriba: 'salirArriba 1s ease-in-out forwards',
-      // },
+      keyframes: {
+        autoScroll: {
+          '0%': {
+            transform: 'translateX(0)',
+          },
+          '100%': {
+            transform: 'translateX(-100%)',
+          },
+        },
+      },
+      animation: {
+        auto_scroll: 'autoScroll 20s linear infinite', // Puedes ajustar la duración y comportamiento
+      },
     },
-  },
   plugins: [],
+}
 }
 
