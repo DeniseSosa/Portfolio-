@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex justify-center items-center hover:drop-shadow-[0_10px_15px_rgb(192,38,211)] ">
             <FaRegCopyright style={{ color: isDarkMode ? "white" :  "black"  }} />
             <h3 className="text-center text-slate-900 dark:text-slate-50 text-xl lg:text-2xl p-2">Made with love</h3>
-            <button onClick={handleColor} className="text-3xl">
+            <button onClick={handleColor} className="text-2xl bg-fuchsia-200 w-fit border-2 border-fuchsia-900 rounded-xl p-2 m-2">
             {
                 isDarkMode? "🤍": "🖤"
             }

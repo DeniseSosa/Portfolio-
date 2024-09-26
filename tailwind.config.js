@@ -7,7 +7,8 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: "media",
+  // darkMode: "media",
+  darkMode: "class",
   theme: {
     extend: {
       keyframes: {
