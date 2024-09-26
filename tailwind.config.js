@@ -1,3 +1,5 @@
+import { preview } from 'vite';
+
 /** @type {import('tailwindcss').Config} */
 export default {
 
@@ -5,7 +7,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: "class",
+  darkMode: "media",
   theme: {
     extend: {
       keyframes: {
