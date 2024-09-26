@@ -108,7 +108,7 @@ const About = () => {
           >
             <IoMdArrowRoundBack />
           </button>
-          <h3 className="text-slate-900 dark:text-slate-50 text-base sm:text-xl lg:text-3xl leading-snug lg:w-2/6 mx-auto text-center justify-self-center self-center font-bold">
+          <h3 className="text-slate-900 dark:text-slate-50 text-base sm:text-xl lg:text-3xl leading-snug w-11/12 lg:w-2/6 mx-auto p-4 text-start justify-self-center self-center font-bold">
             Started in IT in 2023 without knowing anything about programming, a
             friend had taught me my first steps and I was immediately captivated
             by this world. It fascinated me, and I quickly became passionate
@@ -142,7 +142,7 @@ const About = () => {
             ></img>
           </button>
 
-          <h3 className="text-slate-900 dark:text-slate-50 text-base sm:text-xl lg:text-3xl leading-snug lg:w-2/6 mx-auto text-center justify-self-center self-center font-bold">
+          <h3 className="text-slate-900 dark:text-slate-50 text-base sm:text-xl lg:text-3xl leading-snug w-11/12 lg:w-2/6 mx-auto text-end p-4 justify-self-center self-center font-bold">
             This journey has just begun... I've always loved drawing,
             decorating, designing my own clothes, and nurturing my creative
             side, but it wasn't until 2024 that I started studying UX/UI design

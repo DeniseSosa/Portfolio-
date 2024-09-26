@@ -33,11 +33,11 @@ scroll-behavior: smooth;
 
   @keyframes entrarAbajo{
     from{
-      transform: translateY(200%);
+      transform: translateX(200%);
       background-color:rgba(191, 38, 211, 0.3);
     }
     to{
-      transform: translateY(0);
+      transform: translateX(0);
     }
   }
   .banner-designer {

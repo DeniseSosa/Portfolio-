@@ -8,6 +8,10 @@ function Navbar() {
     setIsOpen(isOpen => !isOpen);
   };
 
+  const onCloseNavbar = () => {
+    if(isOpen) setIsOpen(false)
+  }
+
   return (
     <div className="bg-fuchsia-900 sticky top-0 scroll-smooth">
       <div className="flex flex-col lg:flex-row p-2">
@@ -27,16 +31,16 @@ function Navbar() {
         <nav className={`${isOpen ? "block" : "hidden"} w-full lg:flex lg:justify-between `}>
           <ul className="w-3/6 mx-auto flex flex-col lg:flex-row lg:justify-between">
             <li className="text-center text-slate-50 font-medium text-xl m-0.5 p-2 hover:border-b-2 hover:border-fuchsia-400">
-              <a href="#about">About</a>
+              <a href="#about" onClick={onCloseNavbar}>About</a>
             </li>
             <li className=" text-center text-slate-50 font-medium text-xl m-0.5 p-2 hover:border-b-2 hover:border-fuchsia-400">
-              <a href="#technologies">Technologies</a>
+              <a href="#technologies" onClick={onCloseNavbar}>Technologies</a>
             </li>
             <li className="text-center text-slate-50 font-medium text-xl m-0.5 p-2 hover:border-b-2 hover:border-fuchsia-400">
-              <a href="#projects">Projects</a>
+              <a href="#projects" onClick={onCloseNavbar}>Projects</a>
             </li>
             <li className="text-center text-slate-50 font-medium text-xl m-0.5 p-2 hover:border-b-2 hover:border-fuchsia-400">
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={onCloseNavbar}>Contact</a>
             </li>
           </ul>
         </nav>

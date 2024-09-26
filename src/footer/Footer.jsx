@@ -5,7 +5,7 @@ const Footer = () => {
 
     const handleColor = () => {
         document.documentElement.classList.toggle("dark")
-        setIsDarkMode(!isDarkMode)
+        setIsDarkMode(isDarkMode=> !isDarkMode)
     }
     return (
         <div className="flex justify-center items-center hover:drop-shadow-[0_10px_15px_rgb(192,38,211)] ">
