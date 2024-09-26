@@ -4,7 +4,7 @@ function Contact() {
       <h2 className="text-slate-900 dark:text-slate-50 text-center text-4xl lg:text-5xl m-4 lg:mb-8 p-2 font-bold">
         Contact 📲
       </h2>
-      <div className="grid grid-cols-3 gap-4 max-h-fit px-4 lg:px-20">
+      <div className="grid grid-cols-3 gap-4 max-h-fit px-4 lg:px-20 m-8 ">
         <div className="col-span-3 lg:col-span-1 flex flex-col items-center justify-center">
           <div className="w-full lg:w-3/4">
             <a
@@ -33,7 +33,7 @@ function Contact() {
               rel="noopener noreferrer"
             >
               <img
-                className="w-10 h-10 dark:bg-slate-50 m-2 rounded-md p-2 transition duration-300 hover:scale-110"
+                className="w-11 h-11 dark:bg-slate-50 m-2 rounded-md p-2 transition duration-300 hover:scale-110"
                 src="/mail.svg"
                 alt="Email"
               />
@@ -44,7 +44,7 @@ function Contact() {
               rel="noopener noreferrer"
             >
               <img
-                className="w-10 h-10 bg-slate-50 m-2 rounded-md transition duration-300 hover:scale-110"
+                className="w-11 h-11 bg-slate-50 m-2 rounded-md transition duration-300 hover:scale-110"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                 alt="GitHub"
               />
@@ -55,7 +55,7 @@ function Contact() {
               rel="noopener noreferrer"
             >
               <img
-                className="w-10 h-10  m-2 rounded-md transition duration-300 hover:scale-110"
+                className="w-11 h-11 m-2 rounded-md transition duration-300 hover:scale-110"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
                 alt="LinkedIn"
               />
